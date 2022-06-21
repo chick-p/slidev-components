@@ -1,0 +1,19 @@
+{
+  "name": "slidev-components",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chick-p/slidev-components.git"
+  },
+  "author": "chick-p",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chick-p/slidev-components/issues"
+  }
+}

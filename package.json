@@ -15,5 +15,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chick-p/slidev-components/issues"
+  },
+  "devDependencies": {
+    "vue": "^3.2.37"
   }
 }

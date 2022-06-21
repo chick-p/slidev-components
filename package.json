@@ -5,6 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "run-p -l lint:*",
+    "fix": "run-s -l fix:eslint fix:prettier",
     "lint:eslint": "eslint **/*.vue",
     "lint:prettier": "prettier --check .",
     "fix:eslint": "yarn lint:eslint --fix",

@@ -17,6 +17,7 @@
     "url": "https://github.com/chick-p/slidev-components/issues"
   },
   "devDependencies": {
+    "@slidev/cli": "^0.33.1",
     "vue": "^3.2.37"
   }
 }

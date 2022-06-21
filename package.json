@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "lint:eslint": "eslint **/*.vue",
-    "fix:eslint": "yarn lint:eslint --fix"
+    "lint:prettier": "prettier --check .",
+    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:prettier": "prettier -w ."
   },
   "repository": {
     "type": "git",

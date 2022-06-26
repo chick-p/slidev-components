@@ -61,6 +61,13 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@iconify-json/akar-icons@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@iconify-json/akar-icons/-/akar-icons-1.1.6.tgz#8f775f930341970ac31240c4162a112c66365faa"
+  integrity sha512-Ce93CN2cfRITzmaELpMxUZq3Pwrce5BtInaizbQjBnVJEMI5DXzJXL9U3jOh+GVMkJLsGCfq+DlbZLfwmQvj5g==
+  dependencies:
+    "@iconify/types" "^1.1.0"
+
 "@iconify-json/carbon@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@iconify-json/carbon/-/carbon-1.1.5.tgz#7eb4848f2372750426938497ddce2e457635f278"
@@ -209,10 +216,25 @@
     "@slidev/types" "0.33.1"
     js-yaml "^4.1.0"
 
+"@slidev/theme-default@^0.21.2":
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/@slidev/theme-default/-/theme-default-0.21.2.tgz#28db9f074cd0b17d19ca6ccd1d4c75db7a24b026"
+  integrity sha512-neUucFs2YrRZZd73QwvLTyRG/o1nerDFUR5t8YAmXVLTMzWfY71flQ6aAhjYf+WjsozYsOHcxi/pZtIzZ4VhTQ==
+  dependencies:
+    "@slidev/types" "^0.22.7"
+    codemirror-theme-vars "^0.1.1"
+    prism-theme-vars "^0.2.2"
+    theme-vitesse "^0.1.12"
+
 "@slidev/types@0.33.1":
   version "0.33.1"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.33.1.tgz#10e46e191b18dc2fb32efdef9633b09964771481"
   integrity sha512-QQNixgtnSySYPF/i9hnIIs/DyQRbpB3qVcoR6/yuBpTdP3e58SV4VSKtjhwvtdrz7TpE3O0qzwzN5Wixbz2iew==
+
+"@slidev/types@^0.22.7":
+  version "0.22.7"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.22.7.tgz#abe1c81fedd5db1475428832f65253f95722a6d8"
+  integrity sha512-mCVKQbcGTv6d6n9aHpYNp5U04HF+FMbpY083vqpJ6Folc805BB1Am02eubaW0J6nM+dSOu2dDgPY+kIjs75sAQ==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
@@ -668,6 +690,11 @@ cliui@^7.0.2:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
+
+codemirror-theme-vars@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/codemirror-theme-vars/-/codemirror-theme-vars-0.1.1.tgz#621d0e15028c896cc54b7dc8c3c4429719cca45a"
+  integrity sha512-Au0Ysn6tUMZB/1Jd5S8g4Or1kZxTuTnNx6MVs9H46Ad7w8IEjkHusH+4oyia/FBcVuAJO4DIlkDnPM8Qnnf1rg==
 
 codemirror@^5.65.5:
   version "5.65.6"
@@ -2804,6 +2831,11 @@ prettier@^2.7.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
+prism-theme-vars@^0.2.2:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/prism-theme-vars/-/prism-theme-vars-0.2.3.tgz#af88588d75b3a92dab632d1c777a77d4482dda1b"
+  integrity sha512-lpRg8GWfxu38m4rZwjrvOxeHlmL4tERhe9sTjrC47HMu6uCEch3bLUQVNlISoEq9Z24g5Xm+B7AKdyiKSevktg==
+
 prismjs@^1.28.0:
   version "1.28.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.28.0.tgz#0d8f561fa0f7cf6ebca901747828b149147044b6"
@@ -3174,6 +3206,11 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
+
+theme-vitesse@^0.1.12:
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/theme-vitesse/-/theme-vitesse-0.1.14.tgz#e239d44fb0e61b3d0471fc86784b22e8b632dc96"
+  integrity sha512-b5s+Zpfaw5+djoCJ9AEbcTbpiTlLsOvGM9oblDmmWRGWNqg9oXtEYO/uwubwx77novHBI6zNuwZRHKNlAIBo4A==
 
 to-regex-range@^5.0.1:
   version "5.0.1"

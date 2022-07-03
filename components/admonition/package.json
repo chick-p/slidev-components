@@ -1,0 +1,35 @@
+{
+  "name": "slidev-component-admonition",
+  "description": "Admonition component for Slidev",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "lint": "run-p -l lint:*",
+    "fix": "run-s -l fix:eslint fix:prettier",
+    "lint:eslint": "eslint **/*.vue",
+    "lint:prettier": "prettier --check .",
+    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:prettier": "prettier -w ."
+  },
+  "files": [
+    "components/*"
+  ],
+  "keywords": [
+    "vuejs",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.32.1"
+  },
+  "peerDependencies": {
+    "@slidev/client": "^0.32.1",
+    "vue": "^3.2.34"
+  },
+  "dependencies": {
+    "@iconify-json/akar-icons": "^1.1.6"
+  }
+}

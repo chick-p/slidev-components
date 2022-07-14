@@ -38,5 +38,9 @@
   "workspaces": [
     "components/*",
     "themes/*"
-  ]
+  ],
+  "dependencies": {
+    "prism-theme-vars": "^0.2.4",
+    "prism-themes": "^1.9.0"
+  }
 }

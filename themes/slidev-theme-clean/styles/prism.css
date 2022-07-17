@@ -1,0 +1,14 @@
+@import "prism-theme-vars/base.css";
+@import "prism-themes/themes/prism-vsc-dark-plus.css";
+
+:root {
+  --prism-font-family: var(--slidev-code-font-family);
+}
+
+pre {
+  @apply rounded-none;
+}
+
+pre > code {
+  @apply text-sm;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "slidev-theme-clean",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "slidev example.md",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "keywords": [
+    "slidev",
+    "slidev-theme"
+  ],
+  "engines": {
+    "slidev": ">=0.19.3"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "prism",
+    "default": {
+      "aspectRatio": "16/9",
+      "canvasWidth": 980,
+      "fonts": {
+        "sans": "Avenir Next",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "license": "MIT"
+}

@@ -66,10 +66,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@iconify-json/akar-icons@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@iconify-json/akar-icons/-/akar-icons-1.1.7.tgz#2fcb2cdddf2dbdccc9fdcff92a4beab9e3a141dd"
-  integrity sha512-25xWTnL+xaYiUPUTJMDEOAh+qc4CimVwauk+1yMWFoq57KPwWBzMqI73lITrBwfhPMnxbn+ueWJbnFum/U47xQ==
+"@iconify-json/akar-icons@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@iconify-json/akar-icons/-/akar-icons-1.1.8.tgz#23f515001eb09d87003d6abc5d3bb100c47fd5fe"
+  integrity sha512-ip0q7oG8bKAmvTUiSzVGlsKCiVFbyQJS1Zl5jfBnXMXu8iBLf5KwLEOYWbg2Xj85KyOteZ1iG3cvEQipZv4iiA==
   dependencies:
     "@iconify/types" "*"
 
@@ -1820,10 +1820,10 @@ eslint-plugin-prettier@^4.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-vue@^9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.2.0.tgz#b7ca02b2ce8218b7586346440fc61c2655db353a"
-  integrity sha512-W2hc+NUXoce8sZtWgZ45miQTy6jNyuSdub5aZ1IBune4JDeAyzucYX0TzkrQ1jMO52sNUDYlCIHDoaNePe0p5g==
+eslint-plugin-vue@^9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.4.0.tgz#31c2d9002b5bb437b351a5feffdf37c4397e5cb9"
+  integrity sha512-Nzz2QIJ8FG+rtJaqT/7/ru5ie2XgT9KCudkbN0y3uFYhQ41nuHEaboLAiqwMcK006hZPQv/rVMRhUIwEGhIvfQ==
   dependencies:
     eslint-utils "^3.0.0"
     natural-compare "^1.4.0"
@@ -3116,6 +3116,11 @@ prism-theme-vars@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/prism-theme-vars/-/prism-theme-vars-0.2.4.tgz#c92b8747a70ced8675538454900f88f08d053558"
   integrity sha512-B3Pht+GCT87sZph7hMRLlCQXzCM0awW7Rhk08RavpqRW4LEQOeqN0uMG4QCWkul2tr8PB61YAOJGUrEW+1uuJA==
+
+prism-themes@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/prism-themes/-/prism-themes-1.9.0.tgz#19c034f3205f1e28d75d89728e54ccd745f7e3dd"
+  integrity sha512-tX2AYsehKDw1EORwBps+WhBFKc2kxfoFpQAjxBndbZKr4fRmMkv47XN0BghC/K1qwodB1otbe4oF23vUTFDokw==
 
 prismjs@^1.28.0:
   version "1.28.0"

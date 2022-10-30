@@ -1,13 +1,33 @@
 .slidev-layout {
   @apply text-gray-800;
-  @apply text-xl;
+  @apply bg-slate-50;
 
-  background-color: #f4f5f7;
+  p,
+  blockquote {
+    @apply mt-3;
+    @apply mb-0;
+  }
+
+  ul {
+    @apply mt-3;
+  }
+
+  h2, h3, h4, h5 {
+    @apply mt-3;
+  }
 
   h1 {
     @apply text-4xl font-extrabold;
-    @apply pb-1 mb-6;
+    @apply pb-1;
     @apply border-b-5 border-solid border-cyan-500/30;
+  }
+
+  h1 + p,
+  h2 + p,
+  h3 + p,
+  h4 + p,
+  h5 + p {
+    @apply mt-1;
   }
 
   h1:after {
@@ -19,20 +39,19 @@
   }
 
   h2 {
-    @apply text-3xl font-bold;
-    @apply mb-2;
+    @apply text-2xl font-bold;
   }
 
   h3 {
-    @apply text-2xl;
+    @apply text-xl font-bold;
   }
 
   h4 {
-    @apply text-xl;
+    @apply text-base font-bold;
   }
 
   h5 {
-    @apply text-base;
+    @apply text-base font-bold;
   }
 
   blockquote {
@@ -40,6 +59,17 @@
     @apply border-l-2;
     @apply bg-slate-200;
     @apply text-base;
+  }
+
+  :not(pre) > code {
+    @apply text-sm;
+    @apply bg-slate-200;
+    @apply p-1;
+    @apply rounded-md;
+  }
+
+  blockquote > p {
+    @apply m-0;
   }
 }
 

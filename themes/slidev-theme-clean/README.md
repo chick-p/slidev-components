@@ -3,7 +3,7 @@
 ## Install
 
 ```shell
-npm install https://gitpkg.now.sh/chick-p/slidev-components/themes/slidev-theme-clean?main
+npm install "https://gitpkg.now.sh/chick-p/slidev-components/themes/slidev-theme-clean?main"
 ```
 
 ## Configuration

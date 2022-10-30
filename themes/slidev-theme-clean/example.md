@@ -23,6 +23,20 @@ Ab atque iste aut similique dolores Aut placeat. Qui consequuntur blanditiis [Qu
 
 ---
 
+# h1
+
+Lorem ipsum dolor sit amet.
+
+## h2
+
+Lorem ipsum dolor sit amet.
+
+### h3
+
+Lorem ipsum dolor sit amet.
+
+---
+
 # Backquote
 
 Lorem ipsum dolor sit amet. Non ratione suscipit hic enim architecto aut voluptas necessitatibus sed nostrum quis ut officiis laborum. Non rerum consequatur quo omnis culpa et accusantium rerum ut quos sint sed provident consequatur.
@@ -32,6 +46,8 @@ Lorem ipsum dolor sit amet. Non ratione suscipit hic enim architecto aut volupta
 ---
 
 # Code
+
+`add()` function
 
 ```typescript
 function add(a: number, b: number) {

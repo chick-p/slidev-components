@@ -1,25 +1,10 @@
-name: lint
+name: Run ESLint
+
 on:
-  push:
-    branches:
-      - main
   pull_request:
+
 jobs:
-  build:
-    name: Node.js ubuntu-latest
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: "yarn"
-
-      - name: yarn install
-        run: yarn install
-        env:
-          CI: true
-
-      - name: lint
-        run: yarn run lint
+  call:
+    uses: chick-p/github-actions-shared-workflow/.github/workflows/run-npm-script.yml@main
+    with:
+      script_name: "lint"

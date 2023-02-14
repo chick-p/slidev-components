@@ -22,7 +22,7 @@
     "url": "https://github.com/chick-p/slidev-components/issues"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.40.2",
+    "@slidev/cli": "^0.40.3",
     "@slidev/theme-default": "^0.21.2",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.51.0",

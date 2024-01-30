@@ -24,8 +24,8 @@
   "devDependencies": {
     "@slidev/cli": "^0.46.3",
     "@slidev/theme-default": "^0.21.2",
-    "@typescript-eslint/eslint-plugin": "^6.19.1",
-    "@typescript-eslint/parser": "^6.19.1",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.56.0",

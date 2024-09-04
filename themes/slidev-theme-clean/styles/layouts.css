@@ -1,6 +1,12 @@
 .slidev-layout {
-  @apply text-gray-800;
-  @apply bg-slate-50;
+  font-size: 100%;
+  color: #334155;
+  background-color: #f8fafc;
+  border: 12px solid #67e8f9;
+
+  p {
+    ine-height: 1.6
+  }
 
   p,
   blockquote {
@@ -24,9 +30,7 @@
   }
 
   h1 {
-    @apply text-4xl font-extrabold;
-    @apply pb-1;
-    @apply border-b-5 border-solid border-cyan-500/30;
+    font-weight: 800;
   }
 
   h1 + p,
@@ -35,14 +39,6 @@
   h4 + p,
   h5 + p {
     @apply mt-1;
-  }
-
-  h1:after {
-    @apply absolute block;
-    @apply border-b-5 border-solid border-cyan-500/50;
-    @apply pb-1 mb-6;
-    @apply w-1/3;
-    content: " ";
   }
 
   h2 {
@@ -70,9 +66,20 @@
 
   :not(pre) > code {
     @apply text-sm;
-    @apply bg-slate-200;
+    color: #e01e5a;
+    background-color: #f2f1f0;
     @apply p-1;
     @apply rounded-md;
+  }
+
+  :not(pre) > code::before {
+    content: '`' !important;
+    color: #334155 !important;
+  }
+
+  :not(pre) > code::after {
+    content: '`' !important;
+    color: #334155 !important;
   }
 
   blockquote > p {

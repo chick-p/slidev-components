@@ -5,7 +5,7 @@
   border: 12px solid #67e8f9;
 
   p {
-    ine-height: 1.6
+    ine-height: 1.6;
   }
 
   p,
@@ -73,12 +73,12 @@
   }
 
   :not(pre) > code::before {
-    content: '`' !important;
+    content: "`" !important;
     color: #334155 !important;
   }
 
   :not(pre) > code::after {
-    content: '`' !important;
+    content: "`" !important;
     color: #334155 !important;
   }
 

@@ -9,7 +9,7 @@
     "fix": "run-s -l fix:eslint fix:prettier",
     "lint:eslint": "eslint **/*.vue",
     "lint:prettier": "prettier --check .",
-    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:eslint": "npm lint:eslint --fix",
     "fix:prettier": "prettier -w ."
   },
   "repository": {

@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names  -->
 <template>
   <div class="slidev-layout text-center flex h-full cover">
     <div class="my-auto w-full">

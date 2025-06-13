@@ -22,7 +22,7 @@
     "url": "https://github.com/chick-p/slidev-components/issues"
   },
   "devDependencies": {
-    "@slidev/cli": "^51.8.1",
+    "@slidev/cli": "^51.8.2",
     "@slidev/theme-default": "^0.25.0",
     "@vue/eslint-config-typescript": "^14.5.0",
     "eslint": "^9.28.0",

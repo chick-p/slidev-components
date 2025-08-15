@@ -30,6 +30,6 @@
     "vue": "^3.5.17"
   },
   "dependencies": {
-    "@iconify-json/akar-icons": "^1.2.2"
+    "@iconify-json/akar-icons": "^1.2.7"
   }
 }

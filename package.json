@@ -26,7 +26,7 @@
     "@slidev/cli": "^52.17.0",
     "@slidev/theme-default": "^0.25.0",
     "@vue/eslint-config-typescript": "^14.9.0",
-    "eslint": "^10.6.0",
+    "eslint": "^10.7.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^10.9.2",
     "npm-run-all2": "^9.0.2",

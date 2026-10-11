@@ -14,7 +14,7 @@
     "slidev-theme"
   ],
   "engines": {
-    "slidev": ">=0.19.3"
+    "slidev": ">=51.0.0"
   },
   "slidev": {
     "colorSchema": "light",

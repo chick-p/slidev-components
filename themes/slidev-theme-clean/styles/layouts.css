@@ -95,3 +95,14 @@
     @apply border-0;
   }
 }
+
+pre {
+  @apply rounded-none;
+}
+
+pre > code {
+  @apply text-sm;
+  /* Keeps the line height the prism stylesheet used to apply, so code blocks
+     don't grow taller after dropping it. */
+  line-height: 1.5em;
+}
